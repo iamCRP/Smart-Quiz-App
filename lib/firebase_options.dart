@@ -24,9 +24,9 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        return android;
+        //return android;
       case TargetPlatform.iOS:
-        return ios;
+        //return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -49,20 +49,5 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCKcYKaEBkymve9VPYj5AEFkcwhNzxCX8Y',
-    appId: '1:758547583273:android:a69eac8ce9838bd0776738',
-    messagingSenderId: '758547583273',
-    projectId: 'smart-quiz-3a994',
-    storageBucket: 'smart-quiz-3a994.firebasestorage.app',
-  );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCZUZ7-KqZNBuZsZYnuVrrU8f0eNcCD0Pw',
-    appId: '1:758547583273:ios:19d21f140a96026f776738',
-    messagingSenderId: '758547583273',
-    projectId: 'smart-quiz-3a994',
-    storageBucket: 'smart-quiz-3a994.firebasestorage.app',
-    iosBundleId: 'com.example.smartQuiz',
-  );
 }
