@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smart-quiz-3a994",
+          "appId": "1:758547583273:android:a69eac8ce9838bd0776738",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smart-quiz-3a994",
+          "configurations": {
+            "android": "1:758547583273:android:a69eac8ce9838bd0776738",
+            "ios": "1:758547583273:ios:19d21f140a96026f776738"
+          }
+        }
+      }
+    }
+  }
+}
